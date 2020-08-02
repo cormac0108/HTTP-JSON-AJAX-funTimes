@@ -1,0 +1,17 @@
+
+01 08 2020 - August 1st:  Learning about AJAX. 
+everytime we make a requet - we dont want to be reloading the page / refreshing the page. 
+its slow. For a nice UI. AJAX solves this reload problem.   update a web page without reloading
+the page. 
+the new way to gt data is called.   Fetch  ..  
+fetch('my/url').then(response => {
+    console.log(response);
+});
+page updates arre alot quicker. AJAX is everywhere. parts load dynamically. 
+window.fetch    fetch is a part of the window object.  fetch comes with its own method called 
+.json()   .then(response => response.json())
+JSON view chrome extension. to make looking at json prettier. 
+fetch API   --- promise  promises to let you know when it has this value returned (
+    from its request over the internet. 
+)
+access the data in the object you fetched?   so do another .then  to get to the data. 
