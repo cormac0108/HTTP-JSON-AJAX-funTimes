@@ -1,13 +1,13 @@
 
 01 08 2020 - August 1st:  Learning about AJAX. 
-everytime we make a requet - we dont want to be reloading the page / refreshing the page. 
+everytime we make a request - we dont want to be reloading the page / refreshing the page. 
 its slow. For a nice UI. AJAX solves this reload problem.   update a web page without reloading
 the page. 
 the new way to gt data is called.   Fetch  ..  
 fetch('my/url').then(response => {
     console.log(response);
 });
-page updates arre alot quicker. AJAX is everywhere. parts load dynamically. 
+page updates are alot quicker. AJAX is everywhere. parts load dynamically. 
 window.fetch    fetch is a part of the window object.  fetch comes with its own method called 
 .json()   .then(response => response.json())
 JSON view chrome extension. to make looking at json prettier. 
@@ -15,3 +15,47 @@ fetch API   --- promise  promises to let you know when it has this value returne
     from its request over the internet. 
 )
 access the data in the object you fetched?   so do another .then  to get to the data. 
+
+Now lets learn about the promises feature in  JavaScript.  in ES6.  they are a great alternative
+to callbacks.  A promise is an object that may produce a single value somne time in the 
+future.  either a resolved value, or a reason that it is not reslved (rejected)...
+a promise can be in one of 3 states.  fulfilled , rejected, or  pending.  
+
+before promises we had callbacks. call me back.  promise code - looks cleaner than 
+callback code. 
+with a promise we can do .catch()  to catch any errors that our promise throws. 
+you can assign a promise to a variable.  and keep it around youre code for use later. 
+Promises are great for Asynchronous programming.  
+Promise.all([])   takes an array of promises.  because we did promsie.a;;  it waited until 
+all the promises were resolved and then logged out all the values.. 
+a list of urls from a simple API.  grab information from a server. 
+with promise .all if something fails we will get a promise reject. and we can catch it 
+using .catch()
+
+02-08-2020
+Async await code are just promises unde the hood...  synthactic sugar - make things look prettier 
+the await keyword.  is saying wait for a response. pause.  
+fetch()   fetch function is a promise... 
+javascript has something called try catch blocks.  if anything fails within the try block we can 
+catch it in the the catch block. 
+async await makes thins quite nice and synchronous looking. 
+
+
+03-08-2020
+ES9   -   Object spread operator. 
+Backend introduction.  
+Apache is a server.  the backend. Node.js. 
+LAMP stack - i.e Hostgator 
+PHP - to have a bit of logic in your servers. 
+You can  run your own server from your computer. but you need server software. 
+The new stack is like this:  an application server - node Server - we can write scripts. 
+with node.js we can use js on a server. Database?  store data.  interact ith the front-end. 
+
+For big platforms  such as facebook they just make a copy of their server and put it in different
+locations. such asd Asia, the US etc.  and these are  managed by a loadbalancer. web servers 
+for different countries. Scaling. they use the same database. load balancer: transfers clients 
+the load of the servers.  you can even have multiple databases. so they dont get overwhelmed. 
+copies of each other. 
+Back-end development: making sure that we return those data (resources)  upon request as 
+effectively and efficiently as possible.
+BAck-end + front-end technologies. our next project will use both 
