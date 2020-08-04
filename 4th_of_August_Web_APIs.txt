@@ -1,0 +1,31 @@
+
+04-08-2020     howt ot use APIs
+ API is a messenger that takes a request and tells a system what to do. 
+ Skyscanner? access to databases.  share data. allows computers to communicate = API. 
+ e.g  .fetch() is an API ... Kind of like a waiter. 
+ asking, we get a response. A server has APIs - ways that you can communicate with it. 
+ jsonplaceholder? fake api, for testing. access an api  /name 
+ json responses. industry standards.  get data  - create our website based on this
+ data. there is also xml. npm packagg - can be an API.
+ grabbing data - and adding css to it.  SWAPI - star wars api. people/3/ 
+ the stipe API?  to add payments to your site. instructions. step by step. 
+ twilio docs - api.   so much power. research APIs. 
+ an API key is a pass you get when using apis that require payment. 
+ A server - provides an API.  they tell you how to use it. 
+ the JSON standard. 
+ build websites that use different APIs. 
+ https://public-apis.xyz/ -- great for API project ideas, 
+ http://swapi.py4e.com/  starwars api 
+
+
+last project.  Web App. Brain API. 
+with its own database. it will detect faces. 
+basic design layout. sign in and sign out features. url input feature. we want it 
+to be responsive. Components. CRA - react. 
+
+
+lets create a face recognition web app. 
+create react app. new project. 
+delete their logo. the project is located in our practice/ folder. 
+we will have 4 components. 
+our app npm strt. remember npm scripts. package.json. 
