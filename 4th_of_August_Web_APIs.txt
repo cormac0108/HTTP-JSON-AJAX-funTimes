@@ -29,3 +29,12 @@ create react app. new project.
 delete their logo. the project is located in our practice/ folder. 
 we will have 4 components. 
 our app npm strt. remember npm scripts. package.json. 
+lets create a new folder called components. 
+a js object to style our nav.   install tachyons  css package locally for help with css
+now style our p tag of the nav. using tacyhons .  now npm start  in terminal 
+tachyons is awesome.  much better. 
+sublime?  view >  open all with current extension as. Babel JS.
+ react.tilt  is a cool react js library. 
+ --save  means save it to package.lson , for old npm.  but we dont have to worry
+ about that anymore. it does it by default. import, from the tilt  documentation .
+using things that people have built. 
