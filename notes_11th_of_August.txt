@@ -1,0 +1,10 @@
+
+shadow-5   tachyons gives it a nice shadow. 
+cmd + ctrl + g  to select all instances of a word. 
+styling i so specific to each app. 
+particles.js library. - interactive background.
+cmd + d  in terminal for a new window
+cmd + shift +d  to gt a window right below your terminal. 
+customize your aprticle options
+async await - ES8. 
+using API keys. APIs - useful. tools. 
